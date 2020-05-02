@@ -31,8 +31,5 @@ function convertToRoman(num) {
     romanNum += romanKeys[5*crr10] + decValue.repeat(cases)
   }
 }
- console.log(romanNum)
  return romanNum;
 }
-
-convertToRoman(2);
